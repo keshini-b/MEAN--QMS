@@ -1,0 +1,27 @@
+.top-nav {
+    width: 100%;
+    height: 74px;
+    background-color:rgb(29, 24, 24);
+    position:fixed;
+    top:0;
+    left: 214px;
+    box-shadow:rgb(21, 21, 21);
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: aliceblue;
+    gap:920px;
+  }
+  .log-out {
+    background-color: white;
+    padding: 17px;
+    border-radius: 30px;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+  
+  }
+  .focus {
+    margin-left:100px
+  }

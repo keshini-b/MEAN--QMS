@@ -1,0 +1,133 @@
+/* Sidebar Styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.focus {
+  color: #fff;
+}
+
+.log-out {
+  color: #fff;
+  cursor: pointer;
+}
+
+.center-content {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.buttons-container {
+  margin-top: 20px;
+}
+
+.buttons-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.buttons-container button:hover {
+  background-color: #0056b3;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar_button {
+  background-color: #ff7b7b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sidebar_button:hover {
+  background-color: #ff5252;
+}
+
+.top-nav {
+  width: 200%;
+  height: 100px;
+  background-color: rgb(129, 38, 97);
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: rgb(21, 21, 21);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: aliceblue;
+  gap: 1000px;
+}
+
+.log-out {
+  background-color: white;
+  padding: 17px;
+  border-radius: 30px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.focus {
+  margin-left: 100px;
+}
+
+.sidebar {
+  background-color: #c3a5a5;
+  padding: 20px;
+  height: 100%;
+}
+
+.sidebar_items {
+  margin-bottom: 10px;
+}
+
+.sidebar_items a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar_items a:hover {
+  color: #ff7b7b; /* Change color on hover */
+}
+
+/* Main Content Styles */
+.info {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center;
+}
+
+.alw {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.alw h1 {
+  font-size: 32px;
+  color: #333; /* Dark text color */
+}
+
+.alw h2 {
+  font-size: 24px;
+  color: #555; /* Slightly darker text color */
+}
+
+/* Styling for specific components */

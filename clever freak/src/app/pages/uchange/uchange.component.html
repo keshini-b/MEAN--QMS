@@ -1,0 +1,18 @@
+
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+	<div class="row">
+		<h1>Change Password</h1>
+		<h6 class="information-text">Enter your registered email to reset your password.</h6>
+		<div class="form-group">
+			<input type="email" name="email" id="user_email" ngModel #email="ngModel">
+			<p><label for="username">Email</label></p>
+            <input type="text" name="oldpass" id="oldpass" ngModel #oldpass="ngModel">
+			<p><label for="oldpass">Old Password</label></p>
+            <input type="text" name="newpass" id="newpass" ngModel #newpass="ngModel">
+			<p><label for="newpass">New Password</label></p>
+			<input type="submit" class="submit" value="Change Password">
+		</div>
+	</div>
+</form>
+
+

@@ -1,0 +1,14 @@
+<div class="quiz-container">
+  <h2 class="question">{{ currentQuestion.question }}</h2>
+  <div class="options">
+    <button *ngFor="let option of currentQuestion.options; let i = index" (click)="checkAnswer(option, i)">
+      {{ option }}
+    </button>
+  </div>
+  <div class="feedback" *ngIf="showFeedback">
+    <p [ngClass]="feedbackMessage === 'Correct!' ? 'correct' : 'wrong'">{{ feedbackMessage }}</p>
+  </div>
+  <div class="score" *ngIf="showScore">
+    <p>Your score: {{ score }} / {{ questions.length }}</p>
+  </div>
+</div>

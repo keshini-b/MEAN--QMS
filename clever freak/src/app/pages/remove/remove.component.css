@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #7b3844; /* Dark pink background color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #ff7b7b; /* Reddish-pink heading color */
+  margin-bottom: 20px;
+}
+
+.instruction {
+  color: #333; /* Dark text color */
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: calc(100% - 110px); /* Adjust input width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100px; /* Adjust button width */
+  background-color: #ff7b7b; /* Reddish-pink button color */
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff5242; /* Darker shade on hover */
+}
+
+.message {
+  color: #333; /* Dark text color */
+}

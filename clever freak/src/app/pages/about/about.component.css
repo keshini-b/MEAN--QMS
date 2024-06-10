@@ -1,0 +1,46 @@
+body {
+ 
+  background-color: #ebadd0; /* Light pink background color */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: #ff7b7b; /* Reddish-pink heading color */
+}
+
+main {
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff7b7b; /* Reddish-pink button color */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff5242; /* Darker shade on hover */
+}

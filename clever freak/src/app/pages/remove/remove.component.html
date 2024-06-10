@@ -1,0 +1,16 @@
+
+<form #form="ngForm" (ngSubmit)="delete(form)">
+    <div class="container">
+            <h1>Delete User</h1>
+            <p class="instruction">Enter the username of the user you want to delete:</p>
+            <div class="form-group" >
+                <input type="text" id="username" name="name" ngModel #name="ngModel">
+                <button id="cancel-btn" class="cancel-btn" >Delete User</button>
+            </div>
+            <div id="message" class="message"></div>
+        </div>
+    </form>
+      
+    
+    
+    

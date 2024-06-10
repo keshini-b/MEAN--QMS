@@ -1,0 +1,20 @@
+.container {
+    background-color: #f4dcdc;
+    padding: 20px;
+  }
+  
+  .unordered-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .unordered-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .unordered-list li p {
+    margin: 5px 0;
+  }
+  

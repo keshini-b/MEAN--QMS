@@ -1,0 +1,18 @@
+<h2>Search user Profile</h2>
+<div class="container">
+
+    <form #form="ngForm" (ngSubmit)="search(form)">
+    <div class="search-container">
+      <input type="text" name="searchName" [(ngModel)]="searchName" placeholder="Enter name">
+      <button class="search-button" >Search</button>
+    </div>
+
+  
+    <div class="result-container" *ngIf="selectedPerson">
+      <h3>Details of {{ selectedPerson.name }}</h3>
+      <p>Username: {{ selectedPerson.name }}</p>
+      <p>Phone Number: {{ selectedPerson.phno }}</p>
+      <p>Password: {{ selectedPerson.pw }}</p>
+    </div>
+</form>
+  </div>

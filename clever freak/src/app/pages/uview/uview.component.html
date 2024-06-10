@@ -1,0 +1,13 @@
+<p>uview works!</p>
+
+<div class="container">
+    <h3>Users list </h3>
+    <ul class="unordered-list">
+      <li *ngFor="let user of userList">
+        <p><b>Email:</b> {{ user.name }}</p>
+        <p><b>contact:</b> {{ user.phno }}</p>
+        <p><b>password:</b> {{ user.pw }}</p>
+      </li>
+    </ul>
+  </div>
+  
